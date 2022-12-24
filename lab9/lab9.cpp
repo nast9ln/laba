@@ -1,10 +1,9 @@
 #include <iostream>
-
-using namespace std;
-
 #include "constants.h"
 #include "file-reader.h"
 #include "marapon.h"
+
+using namespace std;
 
 int main()
 {
@@ -12,7 +11,7 @@ int main()
     cout << "Лабораторная работа №9. GIT\n";
     cout << "Вариант №1. Марафон\n";
     cout << "Автор: Стук Анастасия\n\n";
-    cout << "Group: 14\n";
+    cout << "Группа: 14\n";
     marapon* subscriptions[MAX_FILE_ROWS_COUNT];
     int size;
     try
@@ -67,5 +66,8 @@ int main()
     {
         cout << error << '\n';
     }
+
+
+
     return 0;
 }
