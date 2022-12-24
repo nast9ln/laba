@@ -25,7 +25,7 @@ int main()
             cout << "Номер........: ";
             cout << subscriptions[i]->num.namber << " ";
             /********** вывод Участника **********/
-            cout << "Учасника........: ";
+            cout << "Участника........: ";
             // вывод фамилии
             cout << subscriptions[i]->human.last_name << " ";
             // вывод первой буквы имени
@@ -34,7 +34,7 @@ int main()
             cout << subscriptions[i]->human.middle_name[0] << ".";
             cout << '\n';
             /********** вывод старта **********/
-            cout << "Старта...........: ";
+            cout << "Старт...........: ";
             // вывод часа
             cout << subscriptions[i]->date.starth << ":";
             // вывод минуты
@@ -43,7 +43,7 @@ int main()
             cout << subscriptions[i]->date.starts << "";
             cout << '\n';
             /********** вывод финиша **********/
-            cout << "Финиша...........: ";
+            cout << "Финиш...........: ";
             // вывод часа
             cout << subscriptions[i]->date.finishh << ":";
             // вывод минуты
@@ -53,7 +53,7 @@ int main()
             cout << '\n';
             /********** вывод Клуба **********/
             // вывод клуба
-            cout << "Дата возврата...: ";
+            cout << "Название клуба...: ";
             cout << subscriptions[i]->clubss.club << " ";
             cout << '\n';
             cout << '\n';
